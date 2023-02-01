@@ -3,8 +3,6 @@
 
 Presenting [Gleam](https://gleam.run/)
 
-{% embed https://gleam.run/ %}
-
 The power of a type system, the expressiveness of functional programming, with a familiar and modern syntax. 
 
 Gleam comes with compiler, build tool, formatter, editor integrations, and package manager all built in, so creating a Gleam project is just running `gleam new`. 
@@ -167,6 +165,11 @@ If everything went OK then after `mix phx.server` you will see in the browser co
 
 
 ![GleamPHX](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n4349x25h1veqhchfxgd.png)
+
+## Routes
+
+- "/": Example Gleam code using console.log
+- "/video": Example Gleam code interacting with the `MediaStream` api and `this.el`;
 
 ## Next Steps?
 

@@ -18,6 +18,7 @@ defmodule GleamphxWeb.Router do
     pipe_through :browser
 
     live "/", Live.Example, :index
+    live "/video", Live.Video, :index
   end
 
   # Other scopes may use custom stacks.
